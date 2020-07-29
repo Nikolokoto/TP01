@@ -39,11 +39,13 @@
             }
             @include breakpoint-3 {
                 padding: 10px;
+                margin-right: 10%;
                 width: 50vw;
                 max-width: 100%;
             }
             @include breakpoint-4 {
                 padding: 10px;
+                margin-right: 10%;
                 max-width: 75%;
             }
         }
@@ -59,6 +61,7 @@
             justify-content: left;
             flex-flow: row wrap;
             width: 50vw;
+            padding-left: 10%;
         }
         .hero-text{
             color: $white;

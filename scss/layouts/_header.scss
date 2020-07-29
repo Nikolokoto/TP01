@@ -4,6 +4,7 @@
 
 header {
     position: fixed;
+    z-index: 999;
     margin: 0;
     top: 0;
     .header-container {
@@ -23,10 +24,12 @@ header {
             width: $logo-widht;
             .logo-ADA {
                 max-width: 100%;
+                object-fit: cover;
             }
             @include breakpoint-3 {
-                margin-left: 70px;    
+                margin-left: 70px;
             } 
+            
         }          
         .menu-button {
             font-size: $size-menu-icons;
@@ -109,10 +112,11 @@ header {
                     display: flex;
                     flex-direction: row;
                     float: right;
-                    height: inherit;
+                    height: 120px;
                     justify-content: space-between;
-                    padding: 0 5px;
+                    padding: 0 10px;
                     width: inherit;
+                    margin-right: 15px;
                 #drop-down1 {
                     display: none;
                     &:target {
@@ -150,6 +154,7 @@ header {
                         color: $dark-blue;
                         font-size: $font-size-s;
                         padding: 0 5px;
+                        font-size: 14px;
                     }
                     
                     & .link-menu {
