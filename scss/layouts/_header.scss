@@ -109,7 +109,6 @@ header {
                 @include breakpoint-3 {
                     align-items: center;
                     background-color: inherit;
-                    display: flex;
                     flex-direction: row;
                     float: right;
                     height: 120px;

@@ -140,6 +140,97 @@ figure.profile-circle {
     background: #003b7a;
     border-color: #003b7a; }
 
+footer {
+  background-color: #004a99;
+  padding: 30px 10px 40px 10px;
+  font-family: “Open-Sans”, sans-serif; }
+  footer h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    font-weight: lighter; }
+  footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 23px;
+    padding: 0;
+    margin: 0; }
+  footer a {
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none; }
+    footer a:hover {
+      color: #1445b3;
+      transition: color 0.5s ease; }
+    footer a ul {
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-align: left; }
+      footer a ul li {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        list-style: none;
+        text-align: left; }
+    footer a .footer-big-box {
+      display: flex;
+      justify-content: left;
+      flex-flow: row wrap; }
+      footer a .footer-big-box .footer-content {
+        display: flex;
+        justify-content: left; }
+        footer a .footer-big-box .footer-content h4 {
+          font-family: "Montserrat", sans-serif; }
+        footer a .footer-big-box .footer-content .text-footer {
+          display: flex;
+          flex-direction: column;
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px;
+          line-height: 30px;
+          margin-bottom: 30px;
+          text-align: left; }
+          footer a .footer-big-box .footer-content .text-footer span {
+            margin: 0;
+            display: block; }
+        footer a .footer-big-box .footer-content .icons-footer {
+          display: flex;
+          align-items: flex-start; }
+          footer a .footer-big-box .footer-content .icons-footer .icon-container-footer {
+            align-items: center;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            height: 35px;
+            justify-content: center;
+            margin: 5px;
+            width: 35px; }
+            footer a .footer-big-box .footer-content .icons-footer .icon-container-footer:hover {
+              color: #003166;
+              transition: color 0.33s ease; }
+        footer a .footer-big-box .footer-content .footer-form {
+          display: flex;
+          margin: 10 0;
+          padding-bottom: 30px;
+          width: 100%; }
+        footer a .footer-big-box .footer-content form {
+          display: flex;
+          margin: 0;
+          width: 100%; }
+          footer a .footer-big-box .footer-content form > input {
+            border: none;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            max-width: calc(100%-100px); }
+      footer a .footer-big-box .footer-footer {
+        background-color: #051029;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+        margin: auto;
+        width: 100%; }
+
 header {
   position: fixed;
   z-index: 999;
@@ -232,7 +323,6 @@ header {
           header .header-container #main-menu .menu {
             align-items: center;
             background-color: inherit;
-            display: flex;
             flex-direction: row;
             float: right;
             height: 120px;
@@ -271,7 +361,7 @@ header {
           @media (min-width: 990px) {
             header .header-container #main-menu .menu li {
               color: #1445b3;
-              font-size: 4px;
+              font-size: 15px;
               padding: 0 5px;
               font-size: 14px; } }
           header .header-container #main-menu .menu li .link-menu {
@@ -476,7 +566,7 @@ figure.profile-circle {
       flex-direction: column;
       font-family: "Montserrat", sans-serif;
       font-size: 34px;
-      font-weight: 900;
+      font-weight: bolder;
       margin-bottom: 30px;
       text-align: center; }
       @media (min-width: 770px) {
