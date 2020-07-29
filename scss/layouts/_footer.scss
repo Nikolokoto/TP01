@@ -3,66 +3,49 @@
 
 //FOOTER//
 
-footer {
-    align-items: flex-start;
-    background-color: $dark-blue;
-    color: $white;
-    display: flex;
-    flex-flow: column wrap;
-    padding: 0;
-    margin: 0;
+footer{
+    background-color: $why-back;
+    padding: 30px 0 40px 0;
+    font-family: $open-font;
     h1 {
         font-family: $title-font;
         font-size: $font-size-l;
-        font-weight: lighter;
-    }
 
+        font-weight: lighter;}
     p {
         font-family: $title-font;
         font-size: $font-size-xs;
         line-height: 23px;
         padding: 0;
-        margin: 0;
-    }
+        margin: 0;}
 
     a {
         color: $white;
         cursor: pointer;
-        text-decoration: none;            
-        }
-        
-        @include breakpoint-3 {
-            &:hover {
-                color: $dark-blue;
-                transition: color 0.5s ease;
-            }
-        }
-
+        text-decoration: none;
+        &:hover {
+            color: $dark-blue;
+            transition: color 0.5s ease;}
     ul {
         display: block;
         list-style-type: none;
         margin: 0;
         padding: 0;
         text-align: left;
-
         li {
             font-family: $normal-font;
             font-size: $font-size-s;
             line-height: 30px;
             list-style: none;
-            text-align: left;
-            
-        }
+            text-align: left;}
     
     }
-
     .footer-content {
         display: flex;
         justify-content: left;
         flex-direction: column;
         h4 {
-            font-family: $title-font;
-        }
+            font-family: $title-font;}
         .text-footer {
             flex-direction: column;
             font-family: $normal-font;
@@ -72,10 +55,8 @@ footer {
             text-align: left;
             span {
                 margin: 0;
-                display: block;
-            }
+                display: block;}
         }
-
         .icons-footer {
             display: flex;
             align-items: flex-start;
@@ -90,31 +71,24 @@ footer {
                 width: 35px;
                 &:hover  {
                     color: darken($blue, 30);
-                    transition: color 0.5s ease;
-                }
-                
+                    transition: color 0.5s ease;}  
             }
         }
         .footer-form {
             display: flex;
             margin: 10 0;
             padding-bottom: 30px;
-            width: 100%;
-        }
-
+            width: 100%;}
         form {
             display: flex;
             margin: 0;
             width: 100%;
-
             > input {
                 border: none;
                 height: $footer-form-height;
                 margin: 0;
                 padding: 0;
-                max-width: calc(100%-100px);
-            }
-            
+                max-width: calc(100%-100px);}
         }
     }
     
@@ -125,8 +99,6 @@ footer {
         padding: 0;
         text-align: center;
         margin: auto;
-        width: 100%;
-
-    }
-
+        width: 100%;}
+}
 }
